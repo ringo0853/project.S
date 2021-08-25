@@ -1,0 +1,68 @@
+#seatArrange .row li {
+    width: 100%;
+    max-width: 100px;
+    height: 50px;
+    box-sizing: border-box;
+    border-top: 2px solid #f7f7f7;
+    border-left: 2px solid #f7f7f7;
+    border-right: 2px solid #f7f7f7;
+    border-bottom: 2px solid #f7f7f7;
+}
+#seatArrange .row ul {
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 40px;
+}
+#seatArrange input:checked + label {
+    background-color: #ecc760;
+}
+#seatArrange .row li label {
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    list-style: none;
+}
+#seatArrange {
+    
+    box-sizing: inherit;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+#seatTable {
+  
+    text-align: center;
+}
+ul {
+    text-align: center;
+    list-style: none;
+}
+input[type="checkbox"] {
+    display: none;
+}
+.wrap {
+     text-align: center;
+    height: 80px;
+     margin-top: 20px;
+   }
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+#seatArrange {
+    float: right;
+    max-width: calc(100% - 24px);
+    width: 100%;
+}
+div {
+  align-self: center;
+}
